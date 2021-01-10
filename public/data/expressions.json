@@ -1,0 +1,20 @@
+[
+    {
+        "heading": "Castaway - Dream",
+        "description": "Working on a pipe dream to recreate the Sims 2 - Castaway as a fun PC game with some new content!",
+        "src": "/images/expressions/castaway.png",
+        "external": ""
+    },
+    {
+        "heading": "Rain World - Hunter Tracker",
+        "description": "A tracker to help Rain World players peek at their current points score for Hunter playthroughs.",
+        "src": "/images/expressions/hunter-tracker.png",
+        "external": "https://jaclynonacloud.github.io/rainworld-tracker/"
+    },
+    {
+        "heading": "Rain World Art Month",
+        "description": "Join me as I participate in Rain World Art Month 2021!  I post my art in the Rain World Discord, and on Twitter!",
+        "src": "/images/expressions/rw-art-month.png",
+        "external": "https://twitter.com/jaclynonacloud"
+    }
+]
