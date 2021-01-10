@@ -1,0 +1,33 @@
+[
+	{
+		"readable": "GitHub",
+		"src": "/images/ui/socials/github.png",
+		"href": "https://github.com/jaclynonacloud"
+	},
+	{
+		"readable": "deviantART",
+		"src": "/images/ui/socials/deviantart.png",
+		"href": "https://deviantart.com/jaclynonacloud"
+	},
+	{
+		"readable": "Twitter",
+		"src": "/images/ui/socials/twitter.png",
+		"href": "https://twitter.com/jaclynonacloud"
+	},
+	{
+		"readable": "LinkedIn",
+		"src": "/images/ui/socials/linkedin.png",
+		"href": "https://www.linkedin.com/in/jaclynstaples/"
+    },
+    {
+		"readable": "Discord",
+		"src": "/images/ui/socials/discord.png",
+        "href": "",
+        "action": "copyDiscordLink"
+	},
+    {
+		"readable": "Gmail",
+		"src": "/images/ui/socials/gmail.png",
+		"href": "mailto:jaclynonacloud@gmail.com"
+	}
+]
