@@ -44,9 +44,19 @@
         margin: auto;
         text-align: center;
         width: 100%;
-        max-width: 50%;
+        max-width: 90%;
         height: 100%;
-        max-height: 60%;
+        max-height: 90%;
+        z-index: 2;
+
+        @include tablet {
+            max-width: 50%;
+            max-height: 60%;
+        }
+
+        @include desktop {
+            max-height: 35%;
+        }
 
         @include large {
             max-height: 80%;

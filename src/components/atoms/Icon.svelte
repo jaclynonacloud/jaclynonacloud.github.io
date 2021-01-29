@@ -8,14 +8,22 @@
     .icon {
         position: absolute;
         bottom: 0;
-        left: 50%;
+        right: 65px;
         display: flex;
         justify-content: center;
         width: 100px;
         height: 150px;
         margin: 0 auto;
-        transform: translateX(-50%);
         overflow: hidden;
+        z-index: 0;
+        pointer-events: none;
+        user-select: none;
+
+        @include desktop {
+            left: 50%;
+            right: unset;
+            transform: translateX(-50%);
+        }
 
         &__image {
             position: relative;

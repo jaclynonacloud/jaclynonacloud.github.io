@@ -40,14 +40,16 @@
     }
 
     .social {
+        justify-self: center;
+        align-self: center;
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
+        align-content: center;
         background: $accentColour;
         width: 50px;
         height: 50px;
-        margin: auto;
         margin-bottom: 25px;
         border-radius: 50%;
         cursor: pointer;
@@ -64,14 +66,28 @@
             opacity: 1;
             border-radius: 50%;
             mix-blend-mode: lighten;
-            
             transition: ease all 0.6s;
+        }
 
+        &::after {
+            content: attr(data-readable);
+            position: absolute;
+            top: 100%;
+            padding-top: 5px;
+            width: max-content;
+            color: $accentColour;
+            font-size: 1.2em;
         }
 
         &:hover {
             &::before {
                 animation: pulse infinite 0.5s;
+            }
+        }
+
+        @include tablet {
+            &::after {
+                content: '';
             }
         }
 
@@ -87,11 +103,6 @@
                 &::after {
                     content: attr(data-readable);
                     position: absolute;
-                    top: 100%;
-                    padding-top: 5px;
-                    width: max-content;
-                    color: $accentColour;
-                    font-size: 1.2em;
                 }
             }
         }
