@@ -8,7 +8,6 @@
         .then(blob => blob.json())
         .then(data => {
             socials = data
-            console.log('my socials', socials)
         })
 
     const handleAction = action => {

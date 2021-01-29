@@ -12,7 +12,6 @@
         })
 
     const updateExpression = () => {
-        console.log('hello', expressions)
         clickthrough = expressions[0].external
     }
 </script>
