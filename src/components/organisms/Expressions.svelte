@@ -40,7 +40,7 @@
 
     .expressions {
         position: relative;
-        background: #111111;
+        background: #202020;
 
         clip-path: polygon(100% 53%, 93% 70%, 68% 69%, 54% 86%, 39% 83%, 36% 96%, 9% 90%, 0% 96%, 0 0, 100% 0);
         animation: mobile infinite 2s;
